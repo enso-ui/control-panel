@@ -1,55 +1,58 @@
 {
-    "name": "@enso-ui/control-panel",
-    "version": "5.0.0",
-    "description": "Basic control-panel package",
-    "main": "src/bulma/pages/controlPanel/Index.vue",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/enso-ui/control-panel.git"
-    },
-    "keywords": [
-        "control-panel",
-        "vue"
-    ],
-    "author": "Adrian Ocneanu <aocneanu@gmail.com>",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/enso-ui/control-panel/issues"
-    },
-    "homepage": "https://github.com/enso-ui/control-panel#readme",
-    "dependencies": {
-        "@enso-ui/card": "^3.0",
-        "@enso-ui/confirmation": "^2.0",
-        "@enso-ui/divider": "^2.0",
-        "@enso-ui/filters": "^3.0",
-        "@enso-ui/forms": "^3.0",
-        "@enso-ui/mixins": "^4.0",
-        "@enso-ui/tables": "^3.0",
-        "@enso-ui/ui": "^6.0",
-        "@fortawesome/fontawesome-svg-core": "^1.2.2",
-        "@fortawesome/free-brands-svg-icons": "^5.11.2",
-        "@fortawesome/free-regular-svg-icons": "^5.2.0",
-        "@fortawesome/free-solid-svg-icons": "^5.11.2",
-        "@fortawesome/pro-duotone-svg-icons": "^5.12.0",
-        "@fortawesome/pro-regular-svg-icons": "^5.10.1",
-        "@fortawesome/pro-solid-svg-icons": "^5.10.1",
-        "@fortawesome/vue-fontawesome": "3.0.0-5",
-        "v-tooltip": "4.0.0-beta.2",
-        "vue": "^3.0",
-        "vuex": "^4.0.0"
-    },
-    "devDependencies": {
-        "@vue/cli-plugin-babel": "5.0.0-beta.6",
-        "@vue/cli-plugin-eslint": "5.0.0-beta.6",
-        "@vue/eslint-config-airbnb": "^5.0.0",
-        "autoprefixer": "^9.6.1",
-        "babel-eslint": "^10.0.1",
-        "cross-env": "^6.0.0",
-        "eslint": "^7.0.0",
-        "eslint-import-resolver-alias": "^1.1.2",
-        "eslint-plugin-vue": "^8.0.3"
-    }
+  "name": "@enso-ui/control-panel",
+  "version": "5.0.0",
+  "description": "Basic control-panel package",
+  "main": "src/bulma/pages/controlPanel/Index.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enso-ui/control-panel.git"
+  },
+  "keywords": [
+    "control-panel",
+    "vue"
+  ],
+  "author": "Adrian Ocneanu <aocneanu@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enso-ui/control-panel/issues"
+  },
+  "homepage": "https://github.com/enso-ui/control-panel#readme",
+  "dependencies": {
+    "@enso-ui/card": "^4.0.0",
+    "@enso-ui/confirmation": "^3.1.0",
+    "@enso-ui/divider": "^3.1.0",
+    "@enso-ui/filters": "^3.3.0",
+    "@enso-ui/forms": "^4.1.0",
+    "@enso-ui/mixins": "^5.1.0",
+    "@enso-ui/tables": "^4.1.0",
+    "@enso-ui/ui": "^7.1.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.2",
+    "@fortawesome/free-brands-svg-icons": "^5.11.2",
+    "@fortawesome/free-regular-svg-icons": "^5.2.0",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/pro-duotone-svg-icons": "^5.12.0",
+    "@fortawesome/pro-regular-svg-icons": "^5.10.1",
+    "@fortawesome/pro-solid-svg-icons": "^5.10.1",
+    "@fortawesome/vue-fontawesome": "3.0.0-5",
+    "v-tooltip": "4.0.0-beta.2",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "5.0.0-beta.6",
+    "@vue/cli-plugin-eslint": "5.0.0-beta.6",
+    "@vue/eslint-config-airbnb": "^5.0.0",
+    "autoprefixer": "^9.6.1",
+    "babel-eslint": "^10.0.1",
+    "cross-env": "^6.0.0",
+    "eslint": "^7.0.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-vue": "^8.0.3",
+    "vue": "^3.5.0"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.0"
+  }
 }
